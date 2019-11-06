@@ -46,13 +46,11 @@ public class BaseClass {
 		Reporter.log("Opening up Application", true);
 		driver = BrowserFactory.openApplication(driver, config.getConfigBrowser(), config.getConfigUrl());
 	}
-
 	@AfterClass
 	public void tearDown() {
 		Reporter.log("Closing the browser", true);
 		BrowserFactory.tearDown(driver);
 	}
-
 	@AfterMethod
 	public void tearDownMethod(ITestResult result) throws IOException {
 
