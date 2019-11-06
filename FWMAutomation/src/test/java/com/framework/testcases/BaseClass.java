@@ -38,6 +38,7 @@ public class BaseClass {
 				System.getProperty("user.dir") + "/Reports/orangehrm" + Helper.getCurrentDateTime() + ".html"));
 		report = new ExtentReports();
 		report.attachReporter(extent);
+		Reporter.log("Checking status");
 	}
 
 	@BeforeClass
