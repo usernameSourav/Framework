@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up dataProvider and report]]>
+    </line>
+    <line>
+      <![CDATA[Opening up Application]]>
+    </line>
+    <line>
+      <![CDATA[Moving to generate Report]]>
+    </line>
+    <line>
+      <![CDATA[Reports generated]]>
+    </line>
+    <line>
+      <![CDATA[Closing the browser]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12630" started-at="2019-11-06T10:34:18Z" finished-at="2019-11-06T10:34:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12630" started-at="2019-11-06T10:34:18Z" finished-at="2019-11-06T10:34:31Z">
+      <class name="com.framework.testcases.LoginToApp">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.framework.testcases.LoginToApp@3bfdc050]" name="setUpSuite" is-config="true" duration-ms="810" started-at="2019-11-06T16:04:17Z" finished-at="2019-11-06T16:04:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up dataProvider and report]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.framework.testcases.LoginToApp@3bfdc050]" name="setUp" is-config="true" duration-ms="6756" started-at="2019-11-06T16:04:18Z" finished-at="2019-11-06T16:04:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening up Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.framework.testcases.LoginToApp@3bfdc050]" name="login" duration-ms="4603" started-at="2019-11-06T16:04:25Z" finished-at="2019-11-06T16:04:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.framework.testcases.LoginToApp@3bfdc050]" name="tearDownMethod" is-config="true" duration-ms="665" started-at="2019-11-06T16:04:30Z" finished-at="2019-11-06T16:04:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginToApp.login()[pri:0, instance:com.framework.testcases.LoginToApp@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Moving to generate Report]]>
+            </line>
+            <line>
+              <![CDATA[Reports generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.framework.testcases.LoginToApp@3bfdc050]" name="tearDown" is-config="true" duration-ms="590" started-at="2019-11-06T16:04:30Z" finished-at="2019-11-06T16:04:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.framework.testcases.LoginToApp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
